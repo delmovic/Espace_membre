@@ -1,23 +1,19 @@
-# counter
- un super Template de maintenance pour votre site en construction faite en Laravel avec une newsletter mailchimp totalement conçu.
-Counter vous permettra de recuperer des emails à travers une newsletter mailchimp ainsi vos utilisateurs seront notifié des que votre site est au top.
+# Espace Membres
+ Ce depot vous offres un espace membre entierement conçu en PHP complete avec un super design et plusieurs fonctionalité pret pour votre site .
 
 ![bg](https://user-images.githubusercontent.com/26253791/46915636-3f6a7280-cfae-11e8-9f5b-c560a9ac592c.JPG)
 
 
-Ouvrez votre terminal et tapez les commandes suivantes:
-- <code>git clone https://github.com/delmovic/counter.git</code> 
-- cd nom_du_projet
-- composer install
-- Renommer le fichier point .en.example en .env
-- php artisan key:generate pour obtenir une nouvelle cle <br>
-Connecter-vous mailchimp et recuperer votre clé api 
-- [Maichimp Login](https://login.mailchimp.com/)
-- Creer une liste et recuperer LIST_ID
+Techarger le projet via le fochier Zip ou sur vous avez git installé tapez cette commande:
+- <code>git clone https://github.com/delmovic/Espace_membre.git</code> 
+- Importer la BD membres.sql
+- Lancer votre serveur local 
+- Lancer cette Url http://localhost/Espace_Membres/
+- Information de connextion
 ```javascript
-MAILCHIMP_APIKEY=
-MAILCHIMP_LIST_ID=
+LOGIN=Superuser ou mortallseck@gmail.com
+PASSWORD=123456
 ```
-<code>php artisan serve</code>
+Profiter de votre espace membres et n'hesitez pas à nous visiter pour en apprendre plus sur les futurs projets Open Source http://ivoirecode.com.
 # Licence
 Cet projet est un logiciel open source sous licence MIT
