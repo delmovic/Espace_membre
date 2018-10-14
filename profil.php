@@ -123,7 +123,7 @@
     
     <script>
           
-$('.btn').click (function(){
+$('.btn-primary').click (function(){
 
 $('.modal').modal('show');
 
